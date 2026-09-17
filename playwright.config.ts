@@ -29,7 +29,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     // testIdAttribute:'data-test-id',
-    headless: false,
+    // headless: false,
     // viewport: null,
     // launchOptions: {
     //   args: ["--start-maximized"],
