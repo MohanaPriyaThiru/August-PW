@@ -48,7 +48,7 @@ jobs:
         run: npx playwright test hooks.spec.ts
       # Install Allure CLI (official)
       - name: Install Allure CLI
-        run: npm install -g allure-commandline --save-dev
+        run: npm install -g allure-commandline
 
       # Generate Allure report
       - name: Generate Allure Report
