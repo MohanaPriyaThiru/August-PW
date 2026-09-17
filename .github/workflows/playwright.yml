@@ -49,7 +49,6 @@ jobs:
       # Install Allure CLI (official)
       - name: Install Allure CLI
         run: npm install -g allure-commandline
-
       # Generate Allure report
       - name: Generate Allure Report
         if: always()
