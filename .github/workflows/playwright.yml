@@ -45,7 +45,7 @@ jobs:
 
       # Run tests (don't fail pipeline)
       - name: Run Playwright tests
-        run: npx playwright test RSA.spec.ts
+        run: npx playwright test rsa.spec.ts
       # Install Allure CLI (official)
       - name: Install Allure CLI
         run: npm install -g allure-commandline --save-dev
@@ -54,7 +54,7 @@ jobs:
       - name: Generate Allure Report
         if: always()
         run: |
-          allure generate allure-results --clean -o allure-report
+          npx allure generate allure-results --clean -o allure-report
 
       # Debug step (VERY IMPORTANT for troubleshooting)
       - name: Debug Allure Files
