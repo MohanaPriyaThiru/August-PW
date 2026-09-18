@@ -33,6 +33,7 @@ export default defineConfig({
     // viewport: null,
     // launchOptions: {
     //   args: ["--start-maximized"],
+    // Added comment
     // },
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: "https://restful-booker.herokuapp.com",
